@@ -22,7 +22,7 @@ tokio = { version = "1.1", features = ["sync", "time", "rt-multi-thread"] }
 tokio-stream = { version = "0.1" }
 tracing = "0.1.13"
 
-near-lake-primitives = { path = "../lake-primitives", version = "0.8.0-beta.2" }
+near-lake-primitives = { path = "../lake-primitives" }
 near-lake-context-derive = { path = "../lake-context-derive", version = "0.8.0-beta.2" }
 
 [dev-dependencies]
